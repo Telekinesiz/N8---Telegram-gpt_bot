@@ -1,0 +1,5 @@
+openai== 0.26.5
+telebot==0.0.5
+firebase_admin==6.1.0
+google-cloud-firestore
+
