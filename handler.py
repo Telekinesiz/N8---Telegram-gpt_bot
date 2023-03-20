@@ -84,7 +84,7 @@ class ChatGpt:
         for key, keywords in self.keyword_lists.items():
             for keyword in keywords:
                 if keyword in prompt:
-                    temperature = self.temperature_values.get(key, self.temperature_values['default'])
+                    temperature = self.temperature_values.get(key)
                     break
             else:
                 continue
